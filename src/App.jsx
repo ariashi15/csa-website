@@ -1,32 +1,29 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import ItemList from './components/ItemList'
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Apply from "./pages/Apply";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="app-container">
-      <Header />
-      
-      <main className="main-content">
-        
-        <div className="counter-box">
-          <p>React State Counter Test:</p>
-          <button onClick={() => setCount((count) => count + 1)}>
-            Count is {count}
-          </button>
-        </div>
-
-        <div className="Navigation-Bar">
-          <h2>Navigation Bar</h2>
-          <ItemList />
-        </div>
-
-      </main>
-    </div>
-  )
+    <BrowserRouter>
+      <div className="app-container">
+        <Header />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/apply" element={<Apply />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
