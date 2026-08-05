@@ -50,7 +50,7 @@ const STEPS = [
     id: 4,
     title: "4. All Done!",
     category: "Step 4",
-    description: "That's it — you're finished. [insert what happens next / timeline here].",
+    description: "what happens next!",
   },
 ];
 
@@ -61,7 +61,7 @@ function Apply() {
     <section className="page">
       <h1>Apply to CSA</h1>
       <p className="section-sub">
-        Joining is easy — and genuinely one of the more fun things you'll do this quarter. Here's how it works.
+        JOIN JOIN JOIN!!!
       </p>
 
       <div className="item-list">

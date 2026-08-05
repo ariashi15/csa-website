@@ -5,7 +5,7 @@ import willie from "../assets/willie-logo.webp";
 const NAV_LINKS = [
   { to: "/", label: "Home" },
   { to: "/apply", label: "Apply Now" },
-  { to: "/about", label: "About" },
+  { to: "/about", label: "About / Our Team" },
   { to: "/contact", label: "Contact" },
 ];
 
