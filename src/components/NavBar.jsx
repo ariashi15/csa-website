@@ -1,8 +1,20 @@
+import { NavLink } from 'react-router-dom'
+import './NavBar.css'
+
 function NavBar() {
   return (
-    <>
-        <div>navbar</div>
-    </>
+    <nav className="navbar" aria-label="Main navigation">
+      <NavLink className="navbar__brand" to="/">
+        Northwestern CSA
+      </NavLink>
+      <div className="navbar__links">
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/our-team">Our Team</NavLink>
+        <NavLink to="/events">Events</NavLink>
+        <NavLink to="/gallery">Gallery</NavLink>
+        <NavLink to="/apply">How to Join</NavLink>
+      </div>
+    </nav>
   )
 }
 
