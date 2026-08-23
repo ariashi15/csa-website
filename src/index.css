@@ -43,7 +43,12 @@
 }
 
 body {
+  background-color: var(--cream);
   font-family: var(--font-body);
+}
+
+html {
+  background-color: var(--cream);
 }
 
 h1,

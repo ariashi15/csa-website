@@ -5,17 +5,21 @@ import Events from './pages/Events'
 import Apply from './pages/Apply'
 import Gallery from './pages/Gallery'
 import OurTeam from './pages/OurTeam'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/events" element={<Events />} />
-      <Route path="/apply" element={<Apply />} />
-      <Route path="/gallery" element={<Gallery />} />
-      <Route path="/our-team" element={<OurTeam />} />
-    </Routes>
+    <>
+      <NavBar/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/apply" element={<Apply />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/our-team" element={<OurTeam />} />
+      </Routes>
+    </>
   )
 }
 
