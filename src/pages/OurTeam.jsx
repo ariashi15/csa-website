@@ -1,5 +1,9 @@
 function OurTeam() {
-  return <></>
+  return (
+    <>
+      <div>Our Team</div>
+    </>
+  );
 }
 
 export default OurTeam
