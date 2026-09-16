@@ -82,3 +82,18 @@ button {
   color: var(--cream);
   background-color: var(--lantern);
 }
+
+button {
+  transition: box-shadow 300ms ease, transform 180ms ease;
+}
+
+button:hover {
+  box-shadow: 0 8px 12px rgb(33 31 27 / 8%);
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  button {
+    transition: none;
+  }
+}
