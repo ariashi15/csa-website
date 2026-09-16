@@ -2,8 +2,6 @@
   align-items: center;
   display: flex;
   gap: 2rem;
-  justify-content: space-between;
-  padding: 1rem 2rem;
 }
 
 .navbar a {
@@ -22,5 +20,5 @@
 }
 
 .navbar__links .active {
-  text-decoration: underline;
+  color: var(--lantern);
 }
