@@ -44,6 +44,7 @@
 }
 
 body {
+  margin: 0;
   background-color: var(--cream);
   font-family: var(--font-body);
 }

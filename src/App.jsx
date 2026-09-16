@@ -6,6 +6,7 @@ import Apply from './pages/Apply'
 import Gallery from './pages/Gallery'
 import OurTeam from './pages/OurTeam'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/our-team" element={<OurTeam />} />
         </Routes>
       </div>
+      <Footer/>
     </>
   )
 }
