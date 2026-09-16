@@ -1,6 +1,15 @@
 import './Home.css'
 import SectionHeader from '../components/SectionHeader';
 
+function NumberCol({ stat, subheader }) {
+  return (
+    <div className="number-col">
+          <div className="number-col__stat">{stat}</div>
+          <div className="number-col__subheader">{subheader}</div>
+    </div>
+  );
+}
+
 function Home() {
   return (
     <>
@@ -12,6 +21,12 @@ function Home() {
         <div className="section-col">
           <div>image placeholder</div>
         </div>
+      </section>
+      <section className="numbers-section">
+        <NumberCol stat="500+" subheader="community members"/>
+        <NumberCol stat="40+" subheader="events per year"/>
+        <NumberCol stat="4" subheader="dynasties"/>
+        <NumberCol stat="9+" subheader="years strong"/>
       </section>
       <section className="two-col-section">
         <div className="section-col">

@@ -15,3 +15,25 @@
 .section-col {
     width: 45vw;
 }
+
+.numbers-section {
+    background-color: var(--lantern);
+    margin: 0 -100px;
+    color: var(--cream);
+    padding: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-col {
+    text-align: center;
+}
+
+.number-col__stat {
+    font-family: var(--font-title);
+    font-size: 64px;
+}
+
+.number-col__subheader {
+    font-size: 18px;
+}
