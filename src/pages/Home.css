@@ -33,13 +33,18 @@
     background-color: var(--lantern);
     margin: 0 -100px;
     color: var(--cream);
-    padding: 40px 150px;
+    padding: 40px 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .number-col {
+    flex: 1;
     text-align: center;
+}
+
+.number-col:not(:last-child) {
+    border-right: 0.7px solid var(--cream);
 }
 
 .number-col__stat {
