@@ -4,6 +4,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer__heading">Northwestern CSA</div>
+            <div className="footer__subheading">Let's keep in touch!</div>
             <div className="footer__links">
                 <a
                     href="https://www.instagram.com/northwesterncsa"
