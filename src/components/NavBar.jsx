@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="navbar" aria-label="Main navigation">
       <NavLink className="navbar__brand" to="/">
-        <img className="navbar__logo" src="src/assets/csalogo.png"/>
+        <img className="navbar__logo" src="src/assets/images/csalogo.png"/>
         Northwestern CSA
       </NavLink>
       <div className="navbar__links">
