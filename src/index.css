@@ -72,3 +72,13 @@ p {
 section {
   margin: 50px 0;
 }
+
+button {
+  font-size: 18px;
+  all: unset;
+  cursor: pointer;
+  padding: 12px 18px;
+  border-radius: 30px;
+  color: var(--cream);
+  background-color: var(--lantern);
+}

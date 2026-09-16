@@ -16,6 +16,17 @@
     width: 45vw;
 }
 
+.button-container {
+    display: flex;
+    gap: 18px;
+}
+
+.transparent-button {
+    background-color: var(--cream);
+    border: 2px solid color-mix(in srgb, var(--grey) 40%, transparent);
+    color: var(--ink);
+}
+
 .numbers-section {
     background-color: var(--lantern);
     margin: 0 -100px;

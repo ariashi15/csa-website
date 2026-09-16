@@ -1,5 +1,6 @@
 import './Home.css'
 import SectionHeader from '../components/SectionHeader';
+import { useNavigate } from 'react-router-dom'
 
 function NumberCol({ stat, subheader }) {
   return (
@@ -11,12 +12,18 @@ function NumberCol({ stat, subheader }) {
 }
 
 function Home() {
+  const navigate = useNavigate()
+
   return (
     <>
       <section className="two-col-section">
         <div className="section-col">
           <div className="home-header">Your home away from <span className="emphasis-text">home.</span></div>
           <p>Welcome to Northwestern’s Chinese Students Association - food, culture, and community on campus. New and returning members welcome!</p>
+          <div className="button-container">
+            <button onClick={() => navigate('/about')}>Learn more</button>
+            <button className="transparent-button" onClick={() => navigate('/events')}>See upcoming events</button>
+          </div>
         </div>
         <div className="section-col">
           <div>image placeholder</div>
