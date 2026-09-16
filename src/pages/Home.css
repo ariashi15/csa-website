@@ -20,7 +20,10 @@
 .button-container {
     display: flex;
     gap: 18px;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+>>>>>>> 864758a93b384fba481af97814eced0b1b6fed19
 }
 
 .transparent-button {
