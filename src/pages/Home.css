@@ -1,0 +1,17 @@
+.home-header {
+    font-size: 64px;
+    font-family: var(--font-title);
+}
+
+.emphasis-text {
+  color: var(--lantern);
+}
+
+.two-col-section {
+    display: flex;
+    gap: 50px;
+}
+
+.section-col {
+    width: 45vw;
+}

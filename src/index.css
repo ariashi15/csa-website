@@ -59,5 +59,16 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: normal;
   font-family: var(--font-title);
+}
+
+p {
+  color: var(--grey);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+section {
+  margin: 50px 0;
 }
