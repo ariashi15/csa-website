@@ -30,9 +30,25 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300 900;
+  font-display: swap;
+}
+
 :root {
   --font-title: 'Instrument Serif', Georgia, serif;
-  --font-body: 'Inter', sans-serif;
+  --font-body: 'Figtree', sans-serif;
   --cream: #f3eedd;
   --sage: #78865a;
   --denim: #7c93b6;
