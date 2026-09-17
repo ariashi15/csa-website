@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 30px 40px;
+  margin: 20px 40px;
 }
 
 .navbar a {
@@ -13,22 +13,13 @@
 .navbar__brand {
   display: flex;
   align-items: center;
-  display: flex;
-  align-items: center;
-  font-family: var(--font-title);
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 550;
 }
 
 .navbar__logo {
-  width: 2.2rem;
-  margin-right: 0.5rem;
-  font-weight: bold;
-}
-
-.navbar__logo {
-  width: 2.2rem;
-  margin-right: 0.5rem;
+  width: 2.1rem;
+  margin-right: 0.4rem;
 }
 
 .navbar__links {
@@ -39,6 +30,5 @@
 
 .navbar__links .active {
   color: var(--lantern);
-  font-weight: 550;
   font-weight: 550;
 }
