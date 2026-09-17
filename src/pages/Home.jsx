@@ -41,7 +41,7 @@ function Home() {
             <button className="transparent-button" onClick={() => navigate('/events')}>See upcoming events</button>
           </div>
         </div>
-        <div className="section-col">
+        <div className="section-col img-col">
           <img src="src/assets/images/empty-image.png" />
         </div>
       </section>
@@ -52,7 +52,7 @@ function Home() {
         <NumberCol stat="9+" subheader="years strong"/>
       </section>
       <section className="two-col-section">
-        <div className="section-col">
+        <div className="section-col img-col">
           <img src="src/assets/images/empty-image.png" />
         </div>
         <div className="section-col">
