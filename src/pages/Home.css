@@ -55,3 +55,11 @@
 .number-col__subheader {
     font-size: 18px;
 }
+
+.events-section {
+    background-color: var(--dark-cream);
+    margin: 0 -100px;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+}

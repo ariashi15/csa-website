@@ -50,6 +50,9 @@ function Home() {
           <p>{section2Text2}</p>
         </div>
       </section>
+      <section className="events-section">
+        <SectionHeader title="Past Events" subtitle="Community In Action" />
+      </section>
     </>
   );
 }
