@@ -42,7 +42,7 @@ function Home() {
           </div>
         </div>
         <div className="section-col">
-          <div>image placeholder</div>
+          <img src="src/assets/images/empty-image.png" />
         </div>
       </section>
       <section className="numbers-section">
@@ -53,7 +53,7 @@ function Home() {
       </section>
       <section className="two-col-section">
         <div className="section-col">
-          image placeholder
+          <img src="src/assets/images/empty-image.png" />
         </div>
         <div className="section-col">
           <SectionHeader title="Not just a club — a family" subtitle="About Us" />
