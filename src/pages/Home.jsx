@@ -3,7 +3,7 @@ import SectionHeader from '../components/SectionHeader';
 import { useNavigate } from 'react-router-dom'
 import emptyImage from '../assets/images/empty-image.png'
 import EventCard from '../components/EventCard';
-import GalleryColumn from '../components/GalleryColumn';
+import GalleryGrid from '../components/GalleryGrid';
 import SeeMoreButton from '../components/SeeMoreButton';
 
 const section1Text = "Welcome to Northwestern’s Chinese Students Association - culture, food, and community on campus. New and returning members welcome!"
@@ -72,11 +72,7 @@ function Home() {
       </section>
       <section>
         <SectionHeader title="Photo Gallery" subtitle="Camera Roll" />
-        <div className="gallery-grid">
-          {galleryColumns.map((imagePaths, index) => (
-            <GalleryColumn key={index} imagePaths={imagePaths} />
-          ))}
-        </div>
+        <GalleryGrid columns={galleryColumns} />
         <SeeMoreButton to="/gallery" />
       </section>
     </>
