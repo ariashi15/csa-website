@@ -1,6 +1,7 @@
 import './Home.css'
 import SectionHeader from '../components/SectionHeader';
 import { useNavigate } from 'react-router-dom'
+import EventCard from '../components/EventCard';
 
 const section1Text = "Welcome to Northwestern’s Chinese Students Association - culture, food, and community on campus. New and returning members welcome!"
 
@@ -52,6 +53,11 @@ function Home() {
       </section>
       <section className="events-section">
         <SectionHeader title="Past Events" subtitle="Community In Action" />
+        <div className="cards-container">
+          <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
+          <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
+          <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
+        </div>
       </section>
     </>
   );

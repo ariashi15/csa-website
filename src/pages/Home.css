@@ -60,6 +60,11 @@
     background-color: var(--dark-cream);
     margin: 0 -100px;
     padding: 80px 100px;
+}
+
+.cards-container {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
 }
