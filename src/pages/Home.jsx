@@ -1,10 +1,10 @@
 import './Home.css'
 import SectionHeader from '../components/SectionHeader';
 import { useNavigate } from 'react-router-dom'
-import arrowRight from '../assets/images/arrow-right.svg'
 import emptyImage from '../assets/images/empty-image.png'
 import EventCard from '../components/EventCard';
 import GalleryColumn from '../components/GalleryColumn';
+import SeeMoreButton from '../components/SeeMoreButton';
 
 const section1Text = "Welcome to Northwestern’s Chinese Students Association - culture, food, and community on campus. New and returning members welcome!"
 
@@ -68,7 +68,7 @@ function Home() {
           <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
           <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
         </div>
-        <button onClick={() => navigate('/events')} className="see-more-button">See more <img src={arrowRight} alt="" /></button>
+        <SeeMoreButton to="/events" />
       </section>
       <section>
         <SectionHeader title="Photo Gallery" subtitle="Camera Roll" />
@@ -77,6 +77,7 @@ function Home() {
             <GalleryColumn key={index} imagePaths={imagePaths} />
           ))}
         </div>
+        <SeeMoreButton to="/gallery" />
       </section>
     </>
   );

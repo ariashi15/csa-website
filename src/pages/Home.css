@@ -69,16 +69,10 @@
     margin: 40px 0;
 }
 
-.see-more-button {
-    display: flex;
-    margin-left: auto;
-    width: fit-content;
-}
-
 .gallery-grid {
     display: flex;
     gap: 30px;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
 .gallery-grid .gallery-column {
