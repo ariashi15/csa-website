@@ -19,11 +19,7 @@ function Home() {
       <section className="two-col-section">
         <div className="section-col">
           <div className="home-header">Your home away from <span className="emphasis-text">home.</span></div>
-<<<<<<< HEAD
           <p>Welcome to Northwestern’s Chinese Students Association - culture, food, and community on campus. New and returning members welcome!</p>
-=======
-          <p>Welcome to Northwestern’s Chinese Students Association - food, culture, and community on campus. New and returning members welcome!</p>
->>>>>>> 864758a93b384fba481af97814eced0b1b6fed19
           <div className="button-container">
             <button onClick={() => navigate('/about')}>Learn more</button>
             <button className="transparent-button" onClick={() => navigate('/events')}>See upcoming events</button>
