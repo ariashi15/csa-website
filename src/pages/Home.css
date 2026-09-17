@@ -54,7 +54,7 @@
 }
 
 .number-col:not(:last-child) {
-    border-right: 0.7px solid var(--cream);
+    border-right: 0.8px solid var(--dark-cream);
 }
 
 .number-col__stat {
