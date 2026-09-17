@@ -82,10 +82,16 @@ button {
   border-radius: 30px;
   color: var(--cream);
   background-color: var(--lantern);
+  transition: box-shadow 300ms ease, transform 180ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
-button {
-  transition: box-shadow 300ms ease, transform 180ms ease;
+button img {
+  display: block;
+  width: 1em;
+  height: 1em;
 }
 
 button:hover {

@@ -1,6 +1,7 @@
 import './Home.css'
 import SectionHeader from '../components/SectionHeader';
 import { useNavigate } from 'react-router-dom'
+import arrowRight from '../assets/images/arrow-right.svg'
 import EventCard from '../components/EventCard';
 
 const section1Text = "Welcome to Northwestern’s Chinese Students Association - culture, food, and community on campus. New and returning members welcome!"
@@ -58,6 +59,7 @@ function Home() {
           <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
           <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
         </div>
+        <button onClick={() => navigate('/events')} className="see-more-button">See more <img src={arrowRight} alt="" /></button>
       </section>
     </>
   );
