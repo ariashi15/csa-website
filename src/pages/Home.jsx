@@ -2,12 +2,21 @@ import './Home.css'
 import SectionHeader from '../components/SectionHeader';
 import { useNavigate } from 'react-router-dom'
 import arrowRight from '../assets/images/arrow-right.svg'
+import emptyImage from '../assets/images/empty-image.png'
 import EventCard from '../components/EventCard';
+import GalleryColumn from '../components/GalleryColumn';
 
 const section1Text = "Welcome to Northwestern’s Chinese Students Association - culture, food, and community on campus. New and returning members welcome!"
 
 const section2Text1 = "CSA is Northwestern's largest cultural org celebrating Chinese and Chinese-American identity - through food crawls, festival celebrations, speaker events, and way too many group chats."
 const section2Text2 = "Every new member joins an Earth, Wind, Water, or Fire dynasty - your built-in friend group for your time at college, complete with your own events and inside jokes."
+
+const galleryColumns = [
+  [emptyImage, emptyImage],
+  [emptyImage, emptyImage, emptyImage],
+  [emptyImage, emptyImage],
+  [emptyImage, emptyImage, emptyImage],
+]
 
 function NumberCol({ stat, subheader }) {
   return (
@@ -60,6 +69,14 @@ function Home() {
           <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
         </div>
         <button onClick={() => navigate('/events')} className="see-more-button">See more <img src={arrowRight} alt="" /></button>
+      </section>
+      <section>
+        <SectionHeader title="Photo Gallery" subtitle="Camera Roll" />
+        <div className="gallery-grid">
+          {galleryColumns.map((imagePaths, index) => (
+            <GalleryColumn key={index} imagePaths={imagePaths} />
+          ))}
+        </div>
       </section>
     </>
   );

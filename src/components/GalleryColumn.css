@@ -1,0 +1,13 @@
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gallery-column img {
+    display: block;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+}
