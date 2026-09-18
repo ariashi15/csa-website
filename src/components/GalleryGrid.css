@@ -1,0 +1,10 @@
+.gallery-grid {
+    display: flex;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.gallery-grid .gallery-column {
+    flex: 1;
+    min-width: 0;
+}
