@@ -17,7 +17,7 @@
 .exec-nav__option {
     color: var(--ink);
     background-color: var(--cream);
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .committees .exec-nav__option {

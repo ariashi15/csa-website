@@ -1,13 +1,15 @@
 .exec-subheading {
     text-align: center;
-    margin-top: 80px;
-    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .exec-position-description {
     margin: 24px auto 0;
     max-width: 600px;
     text-align: center;
+    color: var(--lantern);
 }
 
 .exec-card__container {
@@ -34,7 +36,8 @@
 .exec-card__footer {
     color: var(--lantern);
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .exec-card__name {
