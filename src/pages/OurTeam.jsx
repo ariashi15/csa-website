@@ -30,8 +30,10 @@ function getImgUrl(name) {
 }
 
 function OurTeam() {
-  const [selectedCommittee, setSelectedCommittee] = useState("Cultural")
-  const [selectedDynasty, setSelectedDynasty] = useState("Fire Dynasty")
+  const [selectedCommittee, setSelectedCommittee] = useState("cultural")
+  const [selectedDynasty, setSelectedDynasty] = useState("fire-dynasty")
+  const selectedCommitteePosition = execBoard.positions[selectedCommittee]
+  const selectedDynastyPosition = execBoard.positions[selectedDynasty]
 
   return (
     <>
@@ -44,25 +46,29 @@ function OurTeam() {
       <h2 className="exec-subheading">Committees</h2>
       <ExecNavBar
         category="committees"
-        options={Object.keys(execBoard.committees)}
-        selectedOption={selectedCommittee}
-        onOptionChange={setSelectedCommittee}
+        positionIds={Object.keys(execBoard.committees)}
+        positions={execBoard.positions}
+        selectedPosition={selectedCommittee}
+        onPositionChange={setSelectedCommittee}
       />
+      <p className="exec-position-description">{selectedCommitteePosition.description}</p>
       <div className="exec-card__container">
         {execBoard.committees[selectedCommittee].map((member) => (
-          <ExecCard key={member} name={member} position={selectedCommittee} imgUrl={getImgUrl(member)} />
+          <ExecCard key={member} name={member} position={selectedCommitteePosition.name} imgUrl={getImgUrl(member)} />
         ))}
       </div>
       <h2 className="exec-subheading">Dynasty Heads</h2>
       <ExecNavBar
         category="dynasties"
-        options={Object.keys(execBoard.dynasties)}
-        selectedOption={selectedDynasty}
-        onOptionChange={setSelectedDynasty}
+        positionIds={Object.keys(execBoard.dynasties)}
+        positions={execBoard.positions}
+        selectedPosition={selectedDynasty}
+        onPositionChange={setSelectedDynasty}
       />
+      <p className="exec-position-description">{selectedDynastyPosition.description}</p>
       <div className="exec-card__container">
         {execBoard.dynasties[selectedDynasty].map((member) => (
-          <ExecCard key={member} name={member} position={selectedDynasty} imgUrl={getImgUrl(member)} />
+          <ExecCard key={member} name={member} position={selectedDynastyPosition.name} imgUrl={getImgUrl(member)} />
         ))}
       </div>
     </>

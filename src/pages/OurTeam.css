@@ -4,6 +4,12 @@
     font-size: 30px;
 }
 
+.exec-position-description {
+    margin: 24px auto 0;
+    max-width: 600px;
+    text-align: center;
+}
+
 .exec-card__container {
     display: flex;
     flex-wrap: wrap;

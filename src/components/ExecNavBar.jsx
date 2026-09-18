@@ -1,17 +1,17 @@
 import './ExecNavBar.css'
 
-function ExecNavBar({ category, options, selectedOption, onOptionChange }) {
+function ExecNavBar({ category, positionIds, positions, selectedPosition, onPositionChange }) {
     return (
         <nav className="exec-nav" aria-label={category}>
             <div className={`exec-nav__options ${category}`}>
-                {options.map((option) => (
+                {positionIds.map((positionId) => (
                     <button
-                        key={option}
-                        className={selectedOption === option ? 'exec-nav__option active' : 'exec-nav__option'}
+                        key={positionId}
+                        className={selectedPosition === positionId ? 'exec-nav__option active' : 'exec-nav__option'}
                         type="button"
-                        onClick={() => onOptionChange(option)}
+                        onClick={() => onPositionChange(positionId)}
                     >
-                        {option}
+                        {positions[positionId].alias}
                     </button>
                 ))}
             </div>
