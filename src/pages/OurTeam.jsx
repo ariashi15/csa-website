@@ -6,7 +6,7 @@ import "./OurTeam.css";
 import { useState } from "react";
 
 // all img file names should be in the format firstlast.jpg
-const imageUrls = import.meta.glob("../assets/images/*.jpg", {
+const imageUrls = import.meta.glob("../assets/images/exec-headshots/*.jpg", {
   eager: true,
   import: "default",
   query: "?url",
@@ -26,7 +26,7 @@ function ExecCard({ name, position, imgUrl }) {
 
 function getImgUrl(name) {
   const fileName = name.toLowerCase().replace(/\s/g, '')
-  return imageUrls[`../assets/images/${fileName}.jpg`] || emptyImage
+  return imageUrls[`../assets/images/exec-headshots/${fileName}.jpg`] || emptyImage
 }
 
 function OurTeam() {
