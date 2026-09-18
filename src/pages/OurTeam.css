@@ -37,7 +37,7 @@
     color: var(--lantern);
     padding: 10px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.25;
 }
 
 .exec-card__name {
