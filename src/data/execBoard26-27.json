@@ -1,0 +1,22 @@
+{
+  "cabinet": {
+    "External President": "Aria Shi",
+    "Internal President": "Alicia Li",
+    "Treasurer": "Ethan Li"
+  },
+  "committees": {
+    "Cultural": ["Ashley Zhou", "Angelina Mo", "Joy Fan"],
+    "Social": ["Jonny Wei", "Enson Pan", "Angelina Xu", "Nelson Zhao"],
+    "Programming": ["Selina Xu", "Max Qu"],
+    "Outreach": ["Rebecca Gu", "Katie Chen", "Charlotte Zhou"],
+    "Publicity": ["Gianna Liu", "Huahua Xing"],
+    "CommDev": ["Kay Lee", "Ethan Lin", "Sara Simmons"],
+    "Fundraising": ["Kai Zhou", "Tony Cheng"]
+  },
+  "dynasties": {
+    "Fire": ["Justin Tang", "Chelsea Liu", "Ashlyn Zhao"],
+    "Water": ["Jasmine Guo", "Grace He"],
+    "Earth": ["Eric Dare", "Mirabelle Jiang", "Sabrina Xu"],
+    "Wind": ["George Sun", "Charlie Zhang", "Daniel Wu"]
+  }
+}
