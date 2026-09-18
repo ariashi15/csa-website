@@ -37,7 +37,7 @@ function About() {
       <section className="about-features">
         <SectionHeader
           title="Three things we deliver"
-          subtitle="What we bring"
+          subtitle="Our Values"
         />
         <div className="about-features__images-container">
           <AboutFeatureCard label="Community" />
