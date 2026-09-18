@@ -1,3 +1,4 @@
+import "./Home.css";
 import "./About.css";
 import SectionHeader from "../components/SectionHeader";
 import emptyImage from "../assets/images/empty-image.png";
@@ -42,6 +43,37 @@ function About() {
           <AboutFeatureCard label="Community" />
           <AboutFeatureCard label="Culture" />
           <AboutFeatureCard label="Connection" />
+        </div>
+      </section>
+
+      <section className="about-dynasties">
+        <SectionHeader
+          title="Four dynasties; one community"
+          subtitle="DYNASTIES AND FAMILIES"
+        />
+        <p>
+          CSA is Northwestern’s largest cultural org celebrating Chinese and
+          Chinese-American identity — through food crawls, festival
+          celebrations, speaker events, and way too many group chats.
+        </p>
+        <p>
+          We started in 2022 with a handful of students who missed home-cooked
+          meals and Lunar New Year celebrations. Today, we’re stronger than ever
+          — and our goal hasn’t changed: to make Northwestern feel a little more
+          like home.
+        </p>
+        <div className="button-container">
+          <button
+            onClick={() =>
+              window.open(
+                "https://csa-family-trees.vercel.app/dynasties",
+                "_blank",
+                "noopener,noreferrer",
+              )
+            }
+          >
+            View our family trees
+          </button>
         </div>
       </section>
     </>
