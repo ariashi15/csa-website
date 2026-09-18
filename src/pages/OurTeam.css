@@ -1,3 +1,9 @@
+.exec-subheading {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
 .exec-card__container {
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +28,7 @@
 .exec-card__footer {
     color: var(--lantern);
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .exec-card__name {

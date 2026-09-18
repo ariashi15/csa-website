@@ -1,0 +1,35 @@
+.exec-nav {
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    background-color: var(--dark-cream);
+    border-radius: 999px;
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.exec-nav__options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.exec-nav__option {
+    color: var(--ink);
+    background-color: var(--cream);
+    font-size: 16px;
+}
+
+.committees .exec-nav__option {
+    padding: 10px 30px;
+}
+
+.dynasties .exec-nav__option {
+    padding: 10px 80px;
+}
+
+.exec-nav__option.active {
+    background-color: var(--lantern);
+    font-weight: 550;
+    color: var(--cream);
+}

@@ -11,12 +11,13 @@
     "Outreach": ["Rebecca Gu", "Katie Chen", "Charlotte Zhou"],
     "Publicity": ["Gianna Liu", "Huahua Xing"],
     "CommDev": ["Kay Lee", "Ethan Lin", "Sara Simmons"],
-    "Fundraising": ["Kai Zhou", "Tony Cheng"]
+    "Fundraising": ["Kai Zhou", "Tony Cheng"],
+    "Secretary": ["Gillian Ho"]
   },
   "dynasties": {
-    "Fire": ["Justin Tang", "Chelsea Liu", "Ashlyn Zhao"],
-    "Water": ["Jasmine Guo", "Grace He"],
-    "Earth": ["Eric Dare", "Mirabelle Jiang", "Sabrina Xu"],
-    "Wind": ["George Sun", "Charlie Zhang", "Daniel Wu"]
+    "Fire Dynasty": ["Justin Tang", "Chelsea Liu", "Ashlyn Zhao"],
+    "Water Dynasty": ["Jasmine Guo", "Grace He"],
+    "Earth Dynasty": ["Eric Dare", "Mirabelle Jiang", "Sabrina Xu"],
+    "Wind Dynasty": ["George Sun", "Charlie Zhang", "Daniel Wu"]
   }
 }
