@@ -6,10 +6,10 @@ import EventCard from '../components/EventCard';
 import GalleryGrid from '../components/GalleryGrid';
 import SeeMoreButton from '../components/SeeMoreButton';
 
-const section1Text = "Welcome to Northwestern’s Chinese Students Association - culture, food, and community on campus. New and returning members welcome!"
+const section1Text = "Welcome to Northwestern’s Chinese Students Association: culture, food, and community on campus. Anyone and everyone is welcome!"
 
-const section2Text1 = "CSA is Northwestern's largest cultural org celebrating Chinese and Chinese-American identity - through food crawls, festival celebrations, speaker events, and way too many group chats."
-const section2Text2 = "Every new member joins an Earth, Wind, Water, or Fire dynasty - your built-in friend group for your time at college, complete with your own events and inside jokes."
+const section2Text1 = "CSA is Northwestern's largest student organization celebrating Chinese and Chinese-American identity. From festival celebrations to Chinatown food crawls to speaker events, CSA is a place where students of all backgrounds come together over a shared love for Chinese culture. "
+const section2Text2 = "CSA hosts a wide range of social and cultural events, giving students opportunities to build lasting friendships and find a community within Northwestern. Whether you're looking to meet new people, hoping to find mentorship, or just want to have fun, CSA has a home for you."
 
 const galleryColumns = [
   [emptyImage, emptyImage],
@@ -49,7 +49,7 @@ function Home() {
         <NumberCol stat="500+" subheader="community members"/>
         <NumberCol stat="40+" subheader="events per year"/>
         <NumberCol stat="4" subheader="dynasties"/>
-        <NumberCol stat="9+" subheader="years strong"/>
+        <NumberCol stat="10+" subheader="years strong"/>
       </section>
       <section className="two-col-section">
         <div className="section-col img-col">
