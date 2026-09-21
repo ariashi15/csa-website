@@ -1,0 +1,45 @@
+.exec-subheading {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.exec-position-description {
+    margin: 24px auto 0;
+    max-width: 600px;
+    text-align: center;
+    color: var(--lantern);
+}
+
+.exec-card__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.exec-card {
+    width: 210px;
+    text-align: center;
+}
+
+.exec-card img {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.exec-card__footer {
+    color: var(--lantern);
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+.exec-card__name {
+    font-weight: bold;
+}
