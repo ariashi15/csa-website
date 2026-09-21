@@ -14,3 +14,5 @@ function EventCard({ tag, title, date }){
 }
 
 export default EventCard;
+
+
