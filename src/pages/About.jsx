@@ -29,7 +29,7 @@ function AboutFeatureCard({ label, description }) {
 function About() {
   return (
     <>
-      <section className="two-col-section">
+      <section className="two-col-section" style={{ marginTop: 30 }}>
         <div className="section-col">
           <SectionHeader
             title="Not just a club — a family"

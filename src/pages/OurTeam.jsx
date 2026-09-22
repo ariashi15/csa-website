@@ -36,7 +36,7 @@ function OurTeam() {
   const selectedDynastyPosition = execBoard.positions[selectedDynasty]
 
   return (
-    <>
+    <section style={{ marginTop: 30 }}>
       <SectionHeader title="Our Team" subtitle="Exec Board 2026-2027" />
       <div className="exec-card__container">
         {Object.entries(execBoard.cabinet).map(([position, member], index) => (
@@ -71,7 +71,7 @@ function OurTeam() {
           <ExecCard key={member} name={member} position={selectedDynastyPosition.name} imgUrl={getImgUrl(member)} />
         ))}
       </div>
-    </>
+    </section>
   );
 }
 
