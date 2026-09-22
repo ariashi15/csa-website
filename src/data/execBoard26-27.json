@@ -3,62 +3,62 @@
     "cultural": {
       "name": "Cultural Chair",
       "alias": "Cultural",
-      "description": "Plans cultural programming, festival celebrations, and events that bring members together."
+      "description": "Our cultural chairs are responsible for organizing CSA's festival celebrations, such as Mid-Autumn Festival, Lunar New Year, and Dragon Boat Festival, as well as smaller-scale events like mahjong nights and dumpling-making."
     },
     "social": {
       "name": "Social Chair",
       "alias": "Social",
-      "description": "Creates social events and opportunities for members to build community."
+      "description": "Our social chairs obtain venues and manage logistics for a wide variety of social events throughout the year, including football game tailgates and our annual spring formal."
     },
     "programming": {
       "name": "Programming Chair",
       "alias": "Programming",
-      "description": "Develops event programming and supports the club's activities throughout the year."
+      "description": "Our programming chairs are the ones behind our guest speaker events! They invite prominent APIDA voices to come to campus to share their experiences and insights with our community."
     },
     "outreach": {
       "name": "Outreach Chair",
       "alias": "Outreach",
-      "description": "Builds relationships with campus partners and connects CSA with the wider community."
+      "description": "Our outreach chairs oversee the recruitment process for new members, including running info sessions, reviewing applications, and setting up welcome events for members once they join!"
     },
     "publicity": {
       "name": "Publicity Chair",
       "alias": "Publicity",
-      "description": "Creates communications and promotional materials for CSA events and initiatives."
+      "description": "Our publicity chairs are the creative vision behind CSA's social media, designing CSA's content and branding direction every year. They share event information and quarter recaps via our Instagram, @northwesterncsa."
     },
     "commdev": {
       "name": "CommDev Chair",
       "alias": "CommDev",
-      "description": "Fosters a welcoming member experience and strengthens the CSA community."
+      "description": "Our community development chairs plan CSA-wide events such as barbecues, field days, and picnics. They also partner with local organizations to create opportunities for CSA members to give back to the community!"
     },
     "fundraising": {
       "name": "Fundraising Chair",
       "alias": "Fundraising",
-      "description": "Supports CSA programming through fundraising efforts and sponsor relationships."
+      "description": "Our fundraising chairs support CSA events by raising money through initiatives such as bake sales and social media challenges. They also work to build and maintain relationships with our organization's sponsors!"
     },
     "secretary": {
       "name": "Secretary",
       "alias": "Secretary",
-      "description": "Coordinates meeting records, internal communication, and organizational details."
+      "description": "Our secretary writes CSA's weekly email newsletter and manages our organization's Google Calendar, ensuring that members stay up to date on what's happening in the coming weeks."
     },
     "fire-dynasty": {
       "name": "Fire Head",
       "alias": "Fire",
-      "description": "Leads Fire Dynasty members through community events, traditions, and shared experiences."
+      "description": "Our dynasty heads plan events for their respective dynasties, including skewer nights, charcuterie board making, and cookie decorating. They cultivate a sense of belonging and community for their members!"
     },
     "water-dynasty": {
       "name": "Water Head",
       "alias": "Water",
-      "description": "Leads Water Dynasty members through community events, traditions, and shared experiences."
+      "description": "Our dynasty heads plan events for their respective dynasties, including skewer nights, charcuterie board making, and cookie decorating. They cultivate a sense of belonging and community for their members!"
     },
     "earth-dynasty": {
       "name": "Earth Head",
       "alias": "Earth",
-      "description": "Leads Earth Dynasty members through community events, traditions, and shared experiences."
+      "description": "Our dynasty heads plan events for their respective dynasties, including skewer nights, charcuterie board making, and cookie decorating. They cultivate a sense of belonging and community for their members!"
     },
     "wind-dynasty": {
       "name": "Wind Head",
       "alias": "Wind",
-      "description": "Leads Wind Dynasty members through community events, traditions, and shared experiences."
+      "description": "Our dynasty heads plan events for their respective dynasties, including skewer nights, charcuterie board making, and cookie decorating. They cultivate a sense of belonging and community for their members!"
     }
   },
   "cabinet": {
