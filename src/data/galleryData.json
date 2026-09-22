@@ -1,0 +1,52 @@
+{
+    "gallery": [
+        [
+            {
+                "title": "Mid-Autumn Festival",
+                "imgUrl": "src/assets/images/gallery/mid-autumn-festival.jpg"
+            },
+            {
+                "title": "Chinese New Year Celebration",
+                "imgUrl": "src/assets/images/gallery/chinese-new-year.jpg"
+            },
+            {
+                "title": "Spring Festival Gala",
+                "imgUrl": "src/assets/images/gallery/spring-festival-gala.jpg"
+            }
+        ],
+        [
+            {
+                "title": "Mid-Autumn Festival",
+                "imgUrl": "src/assets/images/gallery/mid-autumn-festival.jpg"
+            },
+            {
+                "title": "Chinese New Year Celebration",
+                "imgUrl": "src/assets/images/gallery/chinese-new-year.jpg"
+            }
+        ],
+        [
+            {
+                "title": "Mid-Autumn Festival",
+                "imgUrl": "src/assets/images/gallery/mid-autumn-festival.jpg"
+            },
+            {
+                "title": "Chinese New Year Celebration",
+                "imgUrl": "src/assets/images/gallery/chinese-new-year.jpg"
+            },
+            {
+                "title": "Spring Festival Gala",
+                "imgUrl": "src/assets/images/gallery/spring-festival-gala.jpg"
+            }
+        ],
+        [
+            {
+                "title": "Mid-Autumn Festival",
+                "imgUrl": "src/assets/images/gallery/mid-autumn-festival.jpg"
+            },
+            {
+                "title": "Chinese New Year Celebration",
+                "imgUrl": "src/assets/images/gallery/chinese-new-year.jpg"
+            }
+        ]
+    ]
+}

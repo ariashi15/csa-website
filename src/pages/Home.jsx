@@ -1,23 +1,16 @@
 import './Home.css'
 import SectionHeader from '../components/SectionHeader';
 import { useNavigate } from 'react-router-dom'
-import emptyImage from '../assets/images/empty-image.png'
 import EventCard from '../components/EventCard';
 import GalleryGrid from '../components/GalleryGrid';
 import SeeMoreButton from '../components/SeeMoreButton';
-import events from '../data/pastEvents.json'
+import eventData from '../data/eventData.json'
+import galleryData from '../data/galleryData.json'
 
 const section1Text = "Welcome to Northwestern’s Chinese Students Association: culture, food, and community on campus. Anyone and everyone is welcome!"
 
 export const aboutText1 = "CSA is Northwestern's largest student organization celebrating Chinese and Chinese-American identity. From festival celebrations to Chinatown food crawls to speaker events, CSA is a place where students of all backgrounds come together over a shared love for Chinese culture. "
 export const aboutText2 = "CSA hosts a wide range of social and cultural events, giving students opportunities to build lasting friendships and find a community within Northwestern. Whether you're looking to meet new people, hoping to find mentorship, or just want to have fun, CSA has a home for you."
-
-const galleryColumns = [
-  [emptyImage, emptyImage],
-  [emptyImage, emptyImage, emptyImage],
-  [emptyImage, emptyImage],
-  [emptyImage, emptyImage, emptyImage],
-]
 
 function NumberCol({ stat, subheader }) {
   return (
@@ -65,7 +58,7 @@ function Home() {
       <section className="events-section">
         <SectionHeader title="Past Events" subtitle="Community In Action" />
         <div className="cards-container">
-          {events["events"].slice(0, 3).map((event, index) => (
+          {eventData.events.slice(0, 3).map((event, index) => (
             <EventCard key={index} {...event} />
           ))}
         </div>
@@ -73,7 +66,7 @@ function Home() {
       </section>
       <section>
         <SectionHeader title="Photo Gallery" subtitle="Camera Roll" />
-        <GalleryGrid columns={galleryColumns} />
+        <GalleryGrid columns={galleryData.gallery} />
         <SeeMoreButton to="/gallery" />
       </section>
     </>

@@ -1,6 +1,6 @@
 import SectionHeader from "../components/SectionHeader";
 import EventCard from "../components/EventCard";
-import events from "../data/pastEvents.json";
+import events from "../data/eventData.json";
 
 function Events() {
   return (
@@ -28,7 +28,7 @@ function Events() {
             margin: "40px 0",
           }}
         >
-          {events["events"].map((event, index) => (
+          {events.events.map((event, index) => (
             <EventCard key={index} {...event} />
           ))}
         </div>
