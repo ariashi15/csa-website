@@ -7,12 +7,22 @@ import { aboutText1, aboutText2 } from "./Home.jsx";
 const aboutText3 = "CSA is split into four dynasties: fire, water, earth, and wind. These dynasties serve as smaller communities within the larger organization, allowing members to connect in a more tight-knit setting. Each dynasty has its own events and group chat, and your dynasty members often become some of your closest friends."
 const aboutText4 = "New members inherit the dynasty of their \"big\", a mentor that they match with during our recruitment process. Littles are immediately welcomed into their bigs' family, a tree of other interconnected bigs and littles that are all part of the same dynasty."
 
-function AboutFeatureCard({ label }) {
+function AboutFeatureCard({ label, description }) {
   return (
-    <article className="about-feature-card">
-      <img src={emptyImage} alt={label} />
-      <div className="about-feature-card__label">{label}</div>
-    </article>
+    <div className="about-feature-card">
+      <div className="about-feature-card__inner">
+        <article className="about-feature-card__face about-feature-card__face--front">
+          <img src={emptyImage} alt={label} />
+          <div className="about-feature-card__label">{label}</div>
+        </article>
+        <article className="about-feature-card__face about-feature-card__face--back">
+          <div className="about-feature-card__label about-feature-card__label--back">
+            {label}
+          </div>
+          <p className="about-feature-card__description">{description}</p>
+        </article>
+      </div>
+    </div>
   );
 }
 
@@ -39,9 +49,18 @@ function About() {
           subtitle="Our Values"
         />
         <div className="about-features__images-container">
-          <AboutFeatureCard label="Community" />
-          <AboutFeatureCard label="Culture" />
-          <AboutFeatureCard label="Mentorship" />
+          <AboutFeatureCard
+            label="Community"
+            description="A network of members who show up for each other, on and off campus."
+          />
+          <AboutFeatureCard
+            label="Culture"
+            description="Traditions and events that bring our members together year after year."
+          />
+          <AboutFeatureCard
+            label="Mentorship"
+            description="Bigs and littles building relationships that last well beyond graduation."
+          />
         </div>
       </section>
 
