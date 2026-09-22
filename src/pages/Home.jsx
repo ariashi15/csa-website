@@ -5,6 +5,7 @@ import emptyImage from '../assets/images/empty-image.png'
 import EventCard from '../components/EventCard';
 import GalleryGrid from '../components/GalleryGrid';
 import SeeMoreButton from '../components/SeeMoreButton';
+import events from '../data/pastEvents.json'
 
 const section1Text = "Welcome to Northwestern’s Chinese Students Association: culture, food, and community on campus. Anyone and everyone is welcome!"
 
@@ -64,9 +65,9 @@ function Home() {
       <section className="events-section">
         <SectionHeader title="Past Events" subtitle="Community In Action" />
         <div className="cards-container">
-          <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
-          <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
-          <EventCard tag="CSA General" title="Mid-Autumn Festival" date="October 2025" />
+          {events["events"].slice(0, 3).map((event, index) => (
+            <EventCard key={index} {...event} />
+          ))}
         </div>
         <SeeMoreButton to="/events" />
       </section>

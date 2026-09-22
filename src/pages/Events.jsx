@@ -1,17 +1,6 @@
 import SectionHeader from "../components/SectionHeader";
 import EventCard from "../components/EventCard";
-
-const events = [
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-];
+import events from "../data/pastEvents.json";
 
 function Events() {
   return (
@@ -39,7 +28,7 @@ function Events() {
             margin: "40px 0",
           }}
         >
-          {events.map((event, index) => (
+          {events["events"].map((event, index) => (
             <EventCard key={index} {...event} />
           ))}
         </div>
