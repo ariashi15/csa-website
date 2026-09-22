@@ -2,11 +2,10 @@ import "./Home.css";
 import "./About.css";
 import SectionHeader from "../components/SectionHeader";
 import emptyImage from "../assets/images/empty-image.png";
+import { aboutText1, aboutText2 } from "./Home.jsx";
 
-const aboutText = [
-  "CSA is Northwestern's largest cultural org celebrating Chinese and Chinese-American identity through food crawls, festival celebrations, speaker events, and way too many group chats.",
-  "Every new member joins an Earth, Wind, Water, or Fire dynasty — your built-in friend group for your time at college, complete with your own events and inside jokes.",
-];
+const aboutText3 = "CSA is split into four dynasties: fire, water, earth, and wind. These dynasties serve as smaller communities within the larger organization, allowing members to connect in a more tight-knit setting. Each dynasty has its own events and group chat, and your dynasty members often become some of your closest friends."
+const aboutText4 = "New members inherit the dynasty of their \"big\", a mentor that they match with during our recruitment process. Littles are immediately welcomed into their bigs' family, a tree of other interconnected bigs and littles that are all part of the same dynasty."
 
 function AboutFeatureCard({ label }) {
   return (
@@ -26,8 +25,8 @@ function About() {
             title="Not just a club — a family"
             subtitle="About Us"
           />
-          <p>{aboutText[0]}</p>
-          <p>{aboutText[1]}</p>
+          <p>{aboutText1}</p>
+          <p>{aboutText2}</p>
         </div>
         <div className="section-col img-col">
           <img src={emptyImage} alt="CSA community" />
@@ -42,7 +41,7 @@ function About() {
         <div className="about-features__images-container">
           <AboutFeatureCard label="Community" />
           <AboutFeatureCard label="Culture" />
-          <AboutFeatureCard label="Connection" />
+          <AboutFeatureCard label="Mentorship" />
         </div>
       </section>
 
@@ -51,17 +50,8 @@ function About() {
           title="Four dynasties; one community"
           subtitle="DYNASTIES AND FAMILIES"
         />
-        <p>
-          CSA is Northwestern’s largest cultural org celebrating Chinese and
-          Chinese-American identity — through food crawls, festival
-          celebrations, speaker events, and way too many group chats.
-        </p>
-        <p>
-          We started in 2022 with a handful of students who missed home-cooked
-          meals and Lunar New Year celebrations. Today, we’re stronger than ever
-          — and our goal hasn’t changed: to make Northwestern feel a little more
-          like home.
-        </p>
+        <p>{aboutText3}</p>
+        <p>{aboutText4}</p>
         <div className="button-container">
           <button
             onClick={() =>
