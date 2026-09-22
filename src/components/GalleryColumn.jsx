@@ -9,13 +9,19 @@ function GalleryColumn({ images }) {
 
     return (
         <div className="gallery-column">
-            {images.map(({ title, imageUrl }, index) => (
-                <img
-                    key={`${imageUrl}-${index}`}
-                    src={imageUrl || emptyImage}
-                    alt={title}
-                    onError={handleImgError}
-                />
+            {images.map(({ title, imgUrl }, index) => (
+                <div className="gallery-item" key={`${imgUrl}-${index}`}>
+                    <img
+                        key={`${imgUrl}-${index}`}
+                        src={imgUrl || emptyImage}
+                        alt={title}
+                        onError={handleImgError}
+                    />
+                    <div className="gallery-item__overlay">
+                        <span className="gallery-item__title">{title}</span>
+                    </div>
+                </div>
+                
             ))}
         </div>
     )

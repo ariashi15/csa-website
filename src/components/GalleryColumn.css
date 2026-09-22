@@ -4,10 +4,37 @@
     gap: 30px;
 }
 
-.gallery-column img {
+.gallery-item {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.gallery-item img {
     display: block;
     height: auto;
     object-fit: cover;
     width: 100%;
     border-radius: 20px;
+}
+
+.gallery-item__overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    background: linear-gradient(to top, rgb(0 0 0 / 50%), transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-item__overlay {
+    opacity: 1;
+}
+
+.gallery-item__title {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.3;
 }
