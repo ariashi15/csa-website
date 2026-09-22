@@ -30,7 +30,7 @@ function Events() {
         />
       </section>
       <section>
-        <SectionHeader title="Past Events" subtitle="What's Happening" />
+        <SectionHeader title="Past Events" subtitle="What We've Been Up To" />
         <div
           style={{
             display: "grid",

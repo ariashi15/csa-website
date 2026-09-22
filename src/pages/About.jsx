@@ -45,8 +45,8 @@ function About() {
 
       <section className="about-features">
         <SectionHeader
-          title="Three things we deliver"
-          subtitle="Our Values"
+          title="Our Values"
+          subtitle="Who We Are"
         />
         <div className="about-features__images-container">
           <AboutFeatureCard
@@ -67,7 +67,7 @@ function About() {
       <section className="about-dynasties">
         <SectionHeader
           title="Four dynasties; one community"
-          subtitle="DYNASTIES AND FAMILIES"
+          subtitle="Dynasties and Families"
         />
         <p>{aboutText3}</p>
         <p>{aboutText4}</p>
