@@ -1,10 +1,27 @@
 import './GalleryColumn.css'
+import emptyImage from '../assets/images/empty-image.png'
 
-function GalleryColumn({ imagePaths }) {
+function GalleryColumn({ images }) {
+    const handleImgError = (e) => {
+            e.target.onerror = null; // prevent infinite loop if emptyImage also fails
+            e.target.src = emptyImage;
+    };
+
     return (
         <div className="gallery-column">
-            {imagePaths.map((imagePath, index) => (
-                <img key={`${imagePath}-${index}`} src={imagePath} alt="" />
+            {images.map(({ title, imgUrl }, index) => (
+                <div className="gallery-item" key={`${imgUrl}-${index}`}>
+                    <img
+                        key={`${imgUrl}-${index}`}
+                        src={imgUrl || emptyImage}
+                        alt={title}
+                        onError={handleImgError}
+                    />
+                    <div className="gallery-item__overlay">
+                        <span className="gallery-item__title">{title}</span>
+                    </div>
+                </div>
+                
             ))}
         </div>
     )
