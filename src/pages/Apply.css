@@ -1,0 +1,16 @@
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.timeline-image {
+    width: 90%;
+    min-width: 0;
+}
+
+.recruitment-text {
+    margin-top: 50px;
+}

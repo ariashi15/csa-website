@@ -1,22 +1,11 @@
 import SectionHeader from "../components/SectionHeader";
 import EventCard from "../components/EventCard";
-
-const events = [
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-  { tag: "CSA General", title: "Mid-Autumn Festival", date: "October 2025" },
-];
+import events from "../data/eventData.json";
 
 function Events() {
   return (
     <>
-      <section>
+      <section style={{ marginTop: 30 }}>
         <SectionHeader title="Upcoming Events" subtitle="What's Happening" />
         <iframe
           src="https://calendar.google.com/calendar/embed?src=c_54c241d869625fced1b319de427d1021e7dd32b9df733e4da378c2a1a2132f2a%40group.calendar.google.com"
@@ -30,7 +19,7 @@ function Events() {
         />
       </section>
       <section>
-        <SectionHeader title="Past Events" subtitle="What's Happening" />
+        <SectionHeader title="Past Events" subtitle="What We've Been Up To" />
         <div
           style={{
             display: "grid",
@@ -39,7 +28,7 @@ function Events() {
             margin: "40px 0",
           }}
         >
-          {events.map((event, index) => (
+          {events.events.map((event, index) => (
             <EventCard key={index} {...event} />
           ))}
         </div>
