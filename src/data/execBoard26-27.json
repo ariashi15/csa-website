@@ -1,0 +1,85 @@
+{
+  "positions": {
+    "cultural": {
+      "name": "Cultural Chair",
+      "alias": "Cultural",
+      "description": "Plans cultural programming, festival celebrations, and events that bring members together."
+    },
+    "social": {
+      "name": "Social Chair",
+      "alias": "Social",
+      "description": "Creates social events and opportunities for members to build community."
+    },
+    "programming": {
+      "name": "Programming Chair",
+      "alias": "Programming",
+      "description": "Develops event programming and supports the club's activities throughout the year."
+    },
+    "outreach": {
+      "name": "Outreach Chair",
+      "alias": "Outreach",
+      "description": "Builds relationships with campus partners and connects CSA with the wider community."
+    },
+    "publicity": {
+      "name": "Publicity Chair",
+      "alias": "Publicity",
+      "description": "Creates communications and promotional materials for CSA events and initiatives."
+    },
+    "commdev": {
+      "name": "CommDev Chair",
+      "alias": "CommDev",
+      "description": "Fosters a welcoming member experience and strengthens the CSA community."
+    },
+    "fundraising": {
+      "name": "Fundraising Chair",
+      "alias": "Fundraising",
+      "description": "Supports CSA programming through fundraising efforts and sponsor relationships."
+    },
+    "secretary": {
+      "name": "Secretary",
+      "alias": "Secretary",
+      "description": "Coordinates meeting records, internal communication, and organizational details."
+    },
+    "fire-dynasty": {
+      "name": "Fire Head",
+      "alias": "Fire",
+      "description": "Leads Fire Dynasty members through community events, traditions, and shared experiences."
+    },
+    "water-dynasty": {
+      "name": "Water Head",
+      "alias": "Water",
+      "description": "Leads Water Dynasty members through community events, traditions, and shared experiences."
+    },
+    "earth-dynasty": {
+      "name": "Earth Head",
+      "alias": "Earth",
+      "description": "Leads Earth Dynasty members through community events, traditions, and shared experiences."
+    },
+    "wind-dynasty": {
+      "name": "Wind Head",
+      "alias": "Wind",
+      "description": "Leads Wind Dynasty members through community events, traditions, and shared experiences."
+    }
+  },
+  "cabinet": {
+    "External President": "Aria Shi",
+    "Internal President": "Alicia Li",
+    "Treasurer": "Ethan Li"
+  },
+  "committees": {
+    "cultural": ["Ashley Zhou", "Angelina Mo", "Joy Fan"],
+    "social": ["Jonny Wei", "Enson Pan", "Angelina Xu", "Nelson Zhao"],
+    "programming": ["Selina Xu", "Max Qu"],
+    "outreach": ["Rebecca Gu", "Katie Chen", "Charlotte Zhou"],
+    "publicity": ["Gianna Liu", "Huahua Xing"],
+    "commdev": ["Kay Lee", "Ethan Lin", "Sara Simmons"],
+    "fundraising": ["Kai Zhou", "Tony Cheng"],
+    "secretary": ["Gillian Ho"]
+  },
+  "dynasties": {
+    "fire-dynasty": ["Justin Tang", "Chelsea Liu", "Ashlyn Zhao"],
+    "water-dynasty": ["Jasmine Guo", "Grace He"],
+    "earth-dynasty": ["Eric Dare", "Mirabelle Jiang", "Sabrina Xu"],
+    "wind-dynasty": ["George Sun", "Charlie Zhang", "Daniel Wu"]
+  }
+}
